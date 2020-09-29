@@ -1,0 +1,61 @@
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+
+.header-mobile {
+  color: #272d4e;
+}
+
+.navbar-brand img {
+  max-height: 60px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link.active-link {
+  color: #2f7ad2;
+}
+li {
+  list-style-type: none;
+}
+
+.custom-hamburger-btn {
+  border: none;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 2.5%;
+  cursor: pointer;
+}
+
+.line-1,
+.line-2,
+.line-3 {
+  width: 30px;
+  height: 4px;
+  background-color: rgb(22, 21, 21);
+  margin: 2.5px 0;
+  transition: 0.4s;
+}
+
+/* Toggle class to  change the state of hambuger icon cross*/
+.toggle .line-1 {
+  transform: translateY(12px) rotate(135deg);
+}
+
+.toggle .line-2 {
+  opacity: 0;
+}
+
+.toggle .line-3 {
+  transform: translateY(-6.89px) rotate(-135deg);
+}
+
+
