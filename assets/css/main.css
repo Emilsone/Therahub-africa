@@ -1,8 +1,21 @@
+:root {
+  --paragraph-color: #656c7a;
+  --btn-color: #ffffff;
+  --blue-color: #000c90;
+  --orange-color: #f25c2a;
+  --heading-color: #000000;
+  --bg-color: #11164f;
+  --footer-bg: #f1f3f6;
+  --btn-font: 0.1rem;
+  --footer-text: #7d7d7d;
+}
+
 html {
-  font-size: 18px;
+  font-size: 16px;
   scroll-behavior: smooth;
 }
 
+/*================================== header section==================================== */
 .header-mobile {
   color: #272d4e;
 }
@@ -57,5 +70,44 @@ li {
 .toggle .line-3 {
   transform: translateY(-6.89px) rotate(-135deg);
 }
+.btn {
+  background-color: var(--blue-color);
+  outline-color: transparent;
+  color: var(--btn-color);
+}
+.btn:hover {
+  background-color: var(--blue-color);
+  outline-color: transparent;
+  color: var(--btn-color);
+}
+/* =================================Main section============================= */
+
+/* suscribe-section */
+.card {
+  background: linear-gradient(90.06deg, #11164f 0.05%, #f25c2a 99.94%);
+  border-radius: 8px;
+  color: var(--btn-color);
+}
+.form-control {
+  outline-color: none !important;
+  border-radius: 0px;
+  background-color: transparent;
+  color: #ebebeb !important;
+}
+/* suscribe-end */
 
 
+/* =================================Footer section============================= */
+.footer___section {
+  background-color: var(--footer-bg);
+  padding: 50px;
+  color: var(--footer-text) !important;
+}
+.footer___section,
+.nav-link {
+  color: var(--footer-text) !important;
+}
+span .fa {
+  font-size: 30px;
+  padding: 9px;
+}
