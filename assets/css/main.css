@@ -92,6 +92,9 @@ nav .btn{
  .hero-section {
    margin-bottom: 40px;
  }
+ .hero-content {
+   text-align: center;
+ }
  .hero-section .hero-content h3 {
   font-family: Gotham;
   font-size: 24px;
@@ -99,7 +102,7 @@ nav .btn{
   font-weight: 350;
   line-height: 30px;
   letter-spacing: 0em;
-  text-align: left;
+  /* text-align: left; */
   margin-top: 30px;  
   color: var(--heading-color);
  }
@@ -110,7 +113,7 @@ nav .btn{
   font-weight: 700;
   line-height: 75px;
   letter-spacing: 0em;
-  text-align: left;  
+  /* text-align: left;   */
   color: var(--heading-color);
  }
 .hero-section .hero-content p {
@@ -120,7 +123,7 @@ nav .btn{
   font-weight: 325;
   line-height: 40px;
   letter-spacing: 0em;
-  text-align: left; 
+  /* text-align: left;  */
   color: var(--heading-color); 
 }
 .hero-section .hero-content .button-group .btn {
@@ -439,6 +442,9 @@ span .fa {
 
 /* ===================================Media Query================================== */
 @media (min-width: 1024px) {
+  .hero-content{
+    text-align: left;
+  }
   .hero-section .hero-content h3 {
     margin-top: 100px;  
    }
