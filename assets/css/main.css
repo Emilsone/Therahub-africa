@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 
 :root {
   --paragraph-color: #656c7a;
@@ -82,6 +83,10 @@ li {
   outline-color: transparent;
   color: var(--btn-color);
 }
+nav .btn{
+  padding: 10px;
+  min-width: 197px;
+}
 /* =================================Main section============================= */
  /* hero-section */
  .hero-section {
@@ -118,7 +123,6 @@ li {
   text-align: left; 
   color: var(--heading-color); 
 }
-
 .hero-section .hero-content .button-group .btn {
   background-color: var(--blue-color);
   outline-color: transparent;
@@ -169,12 +173,12 @@ li {
  }
  .mission-section .mission-content h1 {
   font-family: 'Playfair Display', serif;
-  font-size: 64px;
+  font-size: 54px;
   font-style: normal;
   font-weight: 700;
   line-height: 71px;
   letter-spacing: 0em;
-  margin-top: 20px;
+  margin-top: 40px;
  }
  .mission-section .mission-content p {
   font-family: Gotham;
@@ -204,8 +208,206 @@ li {
 }
  /* mission-section-end */
 
+ /* Outreach-section */
+ .outreach-section {
+   margin: 40px auto 30px;
+ }
+ .outreach-section h1, .event-section h1, .impact-section h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 71px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--heading-color);
+ }
+ .outreach-section .card {
+   height: 100%;
+   border-radius: none;
+   border: none;
+ }
+ .outreach-section img{
+   height: 341px;
+   margin-bottom: 10px;
+ }
+ .outreach-section .text-div {
+   background-color: var(--bg-color);
+   height: 100%;
+   color: var(--btn-color);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+.outreach-section .text-div h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 164px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+}
+ /* Outreach-section-end */
+
+ /* Event-Section */
+ .event-section {
+   margin: 10px auto 40px;
+ }
+ .event-section .card {
+   margin-top: 10px;
+   border-radius: 4px;
+  box-shadow: 5px 10px 18px #888888;
+ }
+.event-section .card img{
+  width: 90%;
+  margin: 30px auto 20px;
+  border: 10px;
+}
+.event-section .card-body h5 {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  max-width: 430px;
+  text-align: left;
+}
+.event-section .card-body h6 {
+  font-family: Gotham;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 20px;
+  color: #2E2E2E;
+}
+.event-section .card-body a {
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  color: #11164F;
+}
+.event-section p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  color: #11164F;
+  text-align: center;
+}
+ /* Event-section-end */
+
+ /* Impact-Section */
+ .impact-section{
+   margin: 40px auto;
+ }
+ .impact-section h1 {
+   margin-bottom: 40px;
+ }
+ .impact-section .parent-div {
+   display: flex;
+   flex-direction: column;
+   margin-top: 5px;
+ }
+ .impact-section .parent-div h4 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 71px;
+  background-color: var(--bg-color);  
+  color: #ffffff;
+  width: 81px;
+  height: 69px;
+  padding: 10px
+ }
+ .impact-section .parent-div .box-2 h4 {
+  background-color: var(--orange-color);  
+  color: #ffffff;
+ }
+ .impact-section .parent-div h3{
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: var(--heading-color);
+ }
+ .impact-section .parent-div p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29.5px;
+  color: #1A1818;
+  min-width: 211px;
+ }
+ /* Impact-section-end */
+
+ /* Banner-section */
+ .banner{
+   margin: 30px auto 80px;
+ }
+ .banner .card{
+   height: 70vh;
+   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url("../image/about-images/banner-image\ \(1\).png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   padding: 30px;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+ .banner .card h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  margin-top: 40px ;
+  color: #ffffff;
+ }
+ .banner .card .button-group {
+   margin-top: 40px;
+ }
+
+.banner .card .button-group .btn {
+  background-color: var(--blue-color);
+  outline-color: transparent;
+  border: 1px solid var(--blue-color);
+  width: 130px;
+  height: 64px;
+  color: var(--btn-color);
+  border-radius: 4px;
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 44px;
+  text-align: center;
+  
+}
+.banner .card .button-group .btn-2{
+  background-color: transparent;
+  color: var(--orange-color);
+  border: 2px solid var(--orange-color);
+}
+.banner .card .button-group .btn-2:hover{
+  background-color: var(--orange-color);
+  outline-color: transparent;
+  color: var(--btn-color);
+}
+ /* Banner-section end */
+
 /* suscribe-section */
-.card {
+.suscribe___section .card{
   background: linear-gradient(90.06deg, #11164f 0.05%, #f25c2a 99.94%);
   border-radius: 8px;
   color: var(--btn-color);
@@ -243,4 +445,26 @@ span .fa {
     font-size: 85px;
     line-height: 110px;
    }
+   .hero-section .hero-content .button-group .btn {
+     width: 197px;
+     height: 64px;
+   }
+   .impact-section .parent-div {
+    display: flex;
+    flex-direction: row;
+   }
+   .banner .card h1 {
+    line-height: 34px;
+   }
+   .banner{
+    margin: 70px auto 100px;
+  }
+   .banner .card{
+    height: 50vh;
+  }
+  .banner .card .button-group .btn{
+    width: 197px;
+    height: 64px;
+    margin-right: 10px;
+  }
 }
