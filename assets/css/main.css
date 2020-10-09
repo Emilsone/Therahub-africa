@@ -255,7 +255,7 @@ nav .btn{
    margin: 10px auto 40px;
  }
  .event-section .card {
-   margin-top: 10px;
+   margin-top: 30px;
    border-radius: 4px;
   box-shadow: 5px 10px 18px #888888;
  }
@@ -266,7 +266,7 @@ nav .btn{
 }
 .event-section .card-body h5 {
   font-family: 'Playfair Display', serif;
-  font-size: 42px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: 60px;
