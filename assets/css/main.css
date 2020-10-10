@@ -14,7 +14,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 18px;
   scroll-behavior: smooth;
 }
 
@@ -77,10 +77,9 @@ li {
   background-color: var(--blue-color);
   outline-color: transparent;
   color: var(--btn-color);
+  border-radius: 4px;
 }
 .btn:hover {
-  background-color: var(--blue-color);
-  outline-color: transparent;
   color: var(--btn-color);
 }
 nav .btn{
@@ -412,9 +411,18 @@ nav .btn{
 
 /* suscribe-section */
 .suscribe___section .card{
+
   background: linear-gradient(90.06deg, #11164f 0.05%, #f25c2a 99.94%);
   border-radius: 8px;
   color: var(--btn-color);
+  
+}
+#event-card {
+
+  background: linear-gradient(90.06deg, #11164f 0.05%, #f25c2a 99.94%);
+  border-radius: 8px;
+  color: var(--btn-color);
+  
 }
 .form-control {
   outline-color: none !important;
@@ -423,6 +431,32 @@ nav .btn{
   color: #ebebeb !important;
 }
 /* suscribe-end */
+
+.section___banner{
+  background-image: url(../images/banner-img.png);
+  background-size: cover;
+  height: 100vh;  
+ background: linear-gradient(95.48deg, rgba(17, 22, 79, 0.25) 7.96%, #11164F 60.32%);
+}
+.section___text{
+ background: linear-gradient(95.48deg, rgba(17, 22, 79, 0.25) 7.96%, #11164F 60.32%);
+}
+
+#donate___section{
+  height: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(../images/banner-img-one.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 30px;  
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+}
+#outreach___img___section{
+  height: 90vh;
+  background-image:  url(../images/banner-img-two.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 /* =================================Footer section============================= */
