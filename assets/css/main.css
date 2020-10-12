@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 
 :root {
   --paragraph-color: #656c7a;
@@ -31,8 +31,8 @@ html {
   color: #000;
 }
 
-.navbar-light .navbar-nav .nav-link.active-link {
-  color: #2f7ad2;
+.navbar-light {
+  background-color: var( --footer-bg );
 }
 li {
   list-style-type: none;
@@ -224,6 +224,8 @@ nav .btn{
   text-align: left;
   color: var(--heading-color);
  }
+
+
  .outreach-section .card {
    height: 100%;
    border-radius: none;
@@ -410,7 +412,7 @@ nav .btn{
  /* Banner-section end */
 
 /* suscribe-section */
-.suscribe___section .card{
+.suscribe___section #suscribe-card{
 
   background: linear-gradient(90.06deg, #11164f 0.05%, #f25c2a 99.94%);
   border-radius: 8px;
@@ -471,6 +473,13 @@ nav .btn{
 
  .section___africa p, .section___vision p{
   line-height: 45px;
+ }
+ #fig___caption{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  color: var(--heading-color);
  }
 
 
