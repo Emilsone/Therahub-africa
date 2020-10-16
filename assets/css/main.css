@@ -87,7 +87,9 @@ nav .btn{
   min-width: 197px;
 }
 /* =================================Main section============================= */
- /* hero-section */
+
+/* ==================================INDEX PAGE STYLE============================ */ 
+/* hero-section */
  .hero-section {
    margin-bottom: 40px;
  }
@@ -296,7 +298,7 @@ nav .btn{
   line-height: 40px;
   color: #11164F;
 }
-.event-section p {
+.event-section p  {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -304,6 +306,10 @@ nav .btn{
   line-height: 40px;
   color: #11164F;
   text-align: center;
+}
+
+.event-section p a {
+  color: #11164F;
 }
  /* Event-section-end */
 
@@ -472,6 +478,142 @@ nav .btn{
  .section___africa p, .section___vision p{
   line-height: 45px;
  }
+/* ==================================END OF INDEX PAGE STYLE============================ */
+
+/* ==================================VOLUNTEER PAGE STYLE============================ */
+/* .volunteer-hero-section */
+.volunteer-hero-section {
+  text-align: center;
+  margin: 0 auto 40px;
+}
+.volunteer-hero-section h1 {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 71px;
+  text-align: center;
+  color: #2E2E2E;
+}
+.volunteer-about-section .volunteer-about-content h1 {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 71px;
+  color: #2E2E2E;
+}
+.volunteer-about-section .volunteer-about-content p {
+  max-width: 512px;
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: 325;
+  font-size: 16px;
+  line-height: 32px;
+  color: #000000;
+}
+.volunteer-about-section .volunteer-about-content .btn {
+  width: 142px;
+  height: 52px;
+  background-color: var(--btn-color);
+  color: var(--blue-color);
+  border: 2px solid var(--bg-color);
+  margin-top: 20px;
+       
+font-family: Gotham;
+font-style: normal;
+font-weight: 350;
+font-size: 16px;
+line-height: 34px;
+}
+.volunteer-about-section .volunteer-about-image img{
+  margin-top: 40px;
+}
+/* .volunteer-hero-section-end */
+
+/* volunteer-testimony-section */
+.volunteer-testimony-section{
+  margin: 30px auto;
+  text-align: center;
+}
+.volunteer-testimony-section h1{
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  color: #000000;
+  margin: 20px auto;
+}
+.volunteer-testimony-section p{
+  font-family: Gotham;
+  font-style: normal;
+  font-weight: 325;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+  max-width: 727px;
+  margin: 0 auto 20px;
+}
+.volunteer-testimony-section img {
+  margin: 5px auto;
+}
+.volunteer-testimony-section blockquote {
+  padding: 6px 16px;
+  border: none;
+  quotes: "\201C" "\201D";
+  display: inline-block;
+  position: relative;
+  color: #2E2E2E;
+  font-family: 'Playfair Display', serif;
+  max-width: 400px;
+}
+
+.volunteer-testimony-section blockquote:before { 
+  content: open-quote;
+  font-weight: bold;
+  font-size: 52px;
+  position:absolute;
+  top:0;
+  left: 0;
+} 
+.volunteer-testimony-section blockquote:after { 
+  content: close-quote;
+  font-weight: bold;
+  font-size: 52px;
+  position:absolute;
+  bottom:0; right: 0;
+}
+/* volunteer-testimony-section-end */
+
+/* volunteer-donate-section */
+.volunteer-donate-section{
+  margin: 40px auto 20px;
+}
+.volunteer-donate-section h1{
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 43px;
+  text-align: center;
+  color: #2E2E2E;
+  margin: 5px auto 30px;
+}
+.volunteer-donate-section .btn {
+  width: 170px;
+  height: 52px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  margin: 20px auto;
+}
+/* volunteer-donate-section-end */
+/* ==================================END OF VOLUNTEER PAGE STYLE============================ */
 
 
 /* =================================Footer section============================= */
@@ -491,7 +633,7 @@ span .fa {
 
 /* ===================================Media Query================================== */
 @media (min-width: 1024px) {
-  .hero-content{
+   .hero-content{
     text-align: left;
   }
   .hero-section .hero-content h3 {
@@ -505,11 +647,91 @@ span .fa {
      width: 197px;
      height: 64px;
    }
+   /* mission-section */
+   
+ .mission-section .mission-content h1 {  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 71px;
+ }
+ .mission-section .mission-content p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
+ }
+ /* .impact-section */
    .impact-section .parent-div {
     display: flex;
     flex-direction: row;
    }
+   
+ .impact-section .parent-div h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 71px;
+ }
+ .impact-section .parent-div .box-2 h4 {
+  background-color: var(--orange-color);  
+  color: #ffffff;
+ }
+ .impact-section .parent-div h3{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+ }
+ .impact-section .parent-div p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29.5px;
+ }
+  /* .outreach-section */
+ .outreach-section h1, .event-section h1, .impact-section h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 71px;
+  text-align: left;
+ }
+ .outreach-section .text-div h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+}
+/* .event-section */
+.event-section .card-body h5 {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+.event-section .card-body h6 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+}
+.event-section .card-body a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+}
+.event-section p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+}
    .banner .card h1 {
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
     line-height: 34px;
    }
    .banner{
@@ -520,4 +742,45 @@ span .fa {
     height: 64px;
     margin-right: 10px;
   }
+
+  /* Volunteer page */
+  .volunteer-hero-section h1 {    
+  font-size: 64px;
+  line-height: 70px;
+  color: #000000;
+  }
+  .volunteer-about-section .volunteer-about-content h1 {
+    font-size: 48px;
+    line-height: 60px;
+    text-align: left;
+    color: #000000;
+  }
+  .volunteer-about-section .volunteer-about-content .btn {
+    width: 220px;
+    height: 64px;
+    line-height: 50px;
+}
+/* .volunteer-testimony-section */
+.volunteer-testimony-section {
+  margin: 70px auto 10px;
+}
+.volunteer-testimony-section h1{
+  margin: 40px auto;
+  font-size: 64px;
+  line-height: 40px;
+  color: #000000;
+}
+.volunteer-testimony-section p{    
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 40px;
+}
+/* .volunteer-donate-section */
+.volunteer-donate-section h1{
+font-size: 64px;
+line-height: 70px;
+text-align: center;
+color: #000000;
+  margin: 5px auto 30px;
+}
 }
