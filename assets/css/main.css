@@ -30,9 +30,7 @@ html {
 .navbar-light .navbar-nav .nav-link {
   color: #000;
 }
-.navbar-light{
-  background-color: var( --footer-bg );
-}
+
 
 
 li {
