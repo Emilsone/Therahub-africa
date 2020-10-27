@@ -30,10 +30,11 @@ html {
 .navbar-light .navbar-nav .nav-link {
   color: #000;
 }
-
-.navbar-light .navbar-nav .nav-link.active-link {
-  color: #2f7ad2;
+.navbar-light{
+  background-color: var( --footer-bg );
 }
+
+
 li {
   list-style-type: none;
 }
