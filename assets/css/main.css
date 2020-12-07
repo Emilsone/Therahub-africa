@@ -29,6 +29,7 @@ html {
 
 .navbar-light .navbar-nav .nav-link {
   color: #000;
+  text-transform: capitalize;
 }
 
 
@@ -73,7 +74,7 @@ li {
   transform: translateY(-6.89px) rotate(-135deg);
 }
 .btn {
-  background-color: var(--blue-color);
+  background-color: var(--orange-color);
   outline-color: transparent;
   color: var(--btn-color);
   border-radius: 4px;
@@ -127,10 +128,10 @@ nav .btn{
   color: var(--heading-color); 
 }
 .hero-section .hero-content .button-group .btn {
-  background-color: var(--blue-color);
+  background-color: var(--bg-color);
   outline-color: transparent;
-  border: 1px solid var(--blue-color);
-  width: 135px;
+  border: 1px solid var(--bg-color);
+  width: 100%;
   height: 64px;
   color: var(--btn-color);
   border-radius: 4px;
@@ -140,21 +141,25 @@ nav .btn{
   font-size: 16px;
   line-height: 44px;
   text-align: center;
+  margin-top: 5px;
 }
 .hero-section .hero-content .button-group .btn-1:hover {
-  background-color: var(--blue-color);
+  background-color: var(--bg-color);
   outline-color: transparent;
   color: var(--btn-color);
 }
 .hero-section .hero-content .button-group .btn-2{
   background-color: var(--btn-color);
-  color: var(--blue-color);
-  border: 2px solid var(--blue-color);
+  color: var(--orange-color);
+  border: 2px solid var(--orange-color);
 }
 .hero-section .hero-content .button-group .btn-2:hover{
-  background-color: var(--blue-color);
+  background-color: var(--orange-color);
   outline-color: transparent;
   color: var(--btn-color);
+}
+.hero-section .hero-content .fa-angle-right{
+  top: 55px;
 }
 .hero-section img {
   margin-top: 20px;
@@ -390,7 +395,7 @@ nav .btn{
   background-color: var(--blue-color);
   outline-color: transparent;
   border: 1px solid var(--blue-color);
-  width: 110px;
+  width: 100%;
   height: 64px;
   color: var(--btn-color);
   border-radius: 4px;
@@ -400,11 +405,11 @@ nav .btn{
   font-size: 16px;
   line-height: 44px;
   text-align: center;
-  
+  margin-top: 10px;
 }
 .banner .card .button-group .btn-2{
-  background-color: transparent;
-  color: var(--orange-color);
+  background-color: var(--orange-color);
+  color: var(--btn-color);
   border: 2px solid var(--orange-color);
 }
 .banner .card .button-group .btn-2:hover{
@@ -433,7 +438,7 @@ nav .btn{
   outline-color: none !important;
   border-radius: 0px;
   background-color: transparent;
-  color: #ebebeb !important;
+  color: var(--btn-color);
 }
 /* suscribe-end */
 
@@ -618,7 +623,7 @@ line-height: 34px;
 /* =================================Footer section============================= */
 .footer___section {
   background-color: var(--footer-bg);
-  padding: 50px;
+  padding: 100px ;
   color: var(--footer-text) !important;
 }
 .footer___section,
@@ -740,6 +745,7 @@ span .fa {
     width: 197px;
     height: 64px;
     margin-right: 10px;
+    
   }
 
   /* Volunteer page */
@@ -758,6 +764,8 @@ span .fa {
     width: 220px;
     height: 64px;
     line-height: 50px;
+    background-color: var(--bg-color);
+    color: var(--btn-color);
 }
 /* .volunteer-testimony-section */
 .volunteer-testimony-section {
