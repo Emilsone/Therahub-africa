@@ -643,16 +643,18 @@ line-height: 34px;
 /* =================================Footer section============================= */
 .footer___section {
   background-color: var(--footer-bg);
-  padding: 100px ;
+  padding: 50px 20px 70px;
   color: var(--footer-text) !important;
 }
 .footer___section,
 .nav-link {
   color: var(--footer-text) !important;
+  text-align: left;
 }
 span .fa {
   font-size: 30px;
-  padding: 9px;
+  padding-top: 9px;
+  padding-right: 9px;
 }
 
 /* ===================================Media Query================================== */
